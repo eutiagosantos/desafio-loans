@@ -15,7 +15,7 @@ Postman - Testes de API.
 🔗 POST /customer-loans
 
 Exemplo de Requisição:
-´´´
+```
 {
     "age": 26,
     "cpf": "275.484.389-23",
@@ -23,9 +23,9 @@ Exemplo de Requisição:
     "income": 7000.00,
     "location": "SP"
 }
-
+```
 Exemplo de Resposta:
-
+```
 {
     "customer": "Vuxaywua Zukiagou",
     "loans": [
@@ -43,7 +43,7 @@ Exemplo de Resposta:
         }
     ]
 }
-
+```
 🔬 **Regras de Negócio**
 
 Empréstimo Pessoal:

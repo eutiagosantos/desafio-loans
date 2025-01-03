@@ -1,20 +1,18 @@
-#Serviço de Análise de Empréstimos
+**Desafio de Análise de Empréstimos**
 
-Este repositório contém a implementação de um serviço para determinar quais modalidades de empréstimo estão disponíveis para um cliente com base em critérios como idade, salário e localização.
+Este repositório apresenta um serviço para avaliar quais modalidades de empréstimos estão disponíveis para um cliente com base em idade, renda e localização.
 
-Tecnologias Utilizadas
+🛠️ **Tecnologias Utilizadas**
 
-Java Spring Boot: Framework para desenvolvimento do backend.
+Java Spring Boot - Framework para criação do backend.
 
-Maven: Gerenciador de dependências.
+Maven - Gerenciador de dependências.
 
-Postman: Para testes de API.
+Postman - Testes de API.
 
-Endpoints Disponíveis
+🔄 **Endpoints**
 
-Analisar Modalidades de Empréstimo
-
-POST /customer-loans
+🔗 POST /customer-loans
 
 Exemplo de Requisição:
 
@@ -46,15 +44,13 @@ Exemplo de Resposta:
     ]
 }
 
-Regras de Negócio
-
-Empréstimos Disponíveis
+🔬 **Regras de Negócio**
 
 Empréstimo Pessoal:
 
 Salário ≤ R$ 3000.
 
-Salário entre R$ 3000 e R$ 5000, idade < 30 anos e residência em São Paulo (SP).
+Salário entre R$ 3000 e R$ 5000, idade < 30 anos e residência em SP.
 
 Empréstimo Consignado:
 
@@ -64,4 +60,5 @@ Empréstimo com Garantia:
 
 Salário ≤ R$ 3000.
 
-Salário entre R$ 3000 e R$ 5000, idade < 30 anos e residência em São Paulo (SP).
+Salário entre R$ 3000 e R$ 5000, idade < 30 anos e residência em SP.
+

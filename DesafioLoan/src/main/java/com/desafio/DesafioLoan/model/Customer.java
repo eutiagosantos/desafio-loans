@@ -34,4 +34,9 @@ public class Customer {
     public boolean isLocation(String value){
         return location == value;
     }
+
+    public boolean isIncomeEqualOrUpper(double value){
+        return income >= value;
+    }
+    
 }
